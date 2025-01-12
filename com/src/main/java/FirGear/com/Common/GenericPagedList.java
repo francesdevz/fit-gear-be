@@ -8,10 +8,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ApiResponse<T> {
-
-    private String status;
-    private String message;
+public class GenericPagedList <T>{
     private T data;
-
 }
